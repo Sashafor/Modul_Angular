@@ -1,0 +1,9 @@
+<div>
+    <img ng-src="{{ user.avatar_url }}" class="img-responsive" style="display: inline-block; height: 120px; width: 120px" alt="Avatar">
+    <a ng-href="#/user" >{{ user.login }}</a>
+
+
+
+</div>
+<p>{{ user.html_url }}</p>
+<p ng-show="user.site_admin == true" style="color: red">Admin</p>
